@@ -13,7 +13,8 @@ require 'rb.php';
 			$dados->email = $email;
 			
 		$id = R::store( $dados );
-			
+
+		echo"Sucesso no login";
 			 
 	
 	 
